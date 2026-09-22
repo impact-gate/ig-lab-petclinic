@@ -1993,7 +1993,7 @@ components:
       description: Editable fields of a pet owner.
       type: object
       properties:
-        firstName:
+        first_name:
           title: First name
           description: The first name of the pet owner.
           type: string
@@ -2214,7 +2214,7 @@ components:
       description: Editable fields of a veterinarian.
       type: object
       properties:
-        firstName:
+        first_name:
           title: First name
           description: The first name of the vet.
           type: string
