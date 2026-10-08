@@ -2162,7 +2162,7 @@ components:
           type: string
           maxLength: 30
           example: Leo
-        birthDate:
+        birth_date:
           title: Birth date
           description: The date of birth of the pet.
           type: string
@@ -2173,7 +2173,7 @@ components:
           $ref: '#/components/schemas/PetType'
       required:
         - name
-        - birthDate
+        - birth_date
         - type
     Pet:
       title: Pet
