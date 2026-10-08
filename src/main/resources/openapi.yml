@@ -2023,7 +2023,7 @@ components:
           minLength: 1
           maxLength: 80
           example: Madison
-        telephone:
+        phone_number:
           title: Telephone number
           description: The telephone number of the pet owner.
           type: string
@@ -2036,7 +2036,7 @@ components:
         - lastName
         - address
         - city
-        - telephone
+        - phone_number
     Owner:
       title: Owner
       description: A pet owner.
